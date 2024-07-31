@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+     <style>
+        div:nth-child(1)>p{
+            background-color: green;
+        }
+       div div{
+        background-color: blue;
+       }
+       div+p{
+        background-color: red;
+       }
+     </style>
+</head>
+<body>
+    <div>
+        <p>
+            <div>1</div>
+            <div>2</div>
+            <p>Hello</p>
+        </p>
+    </div>
+    <div>
+        <p>
+            <div>3</div>
+            <div>4</div>
+            <p>Hello</p>
+        </p>
+    </div>
+</body>
+</html>
